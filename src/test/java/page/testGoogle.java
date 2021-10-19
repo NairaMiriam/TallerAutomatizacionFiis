@@ -12,7 +12,7 @@ public class testGoogle {
     String pathBase = System.getProperty("user.dir");
     String pathDriver = pathBase + "/src/test/resources/driver/chromedriver.exe";
 
-    @Test
+   // @Test
     public void buscarGoogle() {
         System.setProperty("webdriver.chrome.driver", pathDriver);
         driver = new ChromeDriver();
