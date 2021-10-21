@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         format = { "json:target/cucumber.json","html:target/site/cucumber-pretty" },
         features = {"src/test/resources/feature"},
-        glue = {"src/test/java/stepdefinition"},
+        glue = {"stepdefinition"},
         tags = {"@Caso01"})
 public class RunnerTest {
 }
